@@ -9,7 +9,7 @@ public class ThisKeyWord {
        int second;
        int third=30;
        
-       // Purpose of this is for the varible hiding
+       // Purpose of this is for the varible hiding value of the local variable (or Method Parameter) is displayed not instance variable
        
 		void  run(int a, int b) // should not use as static method, 
 	    {
