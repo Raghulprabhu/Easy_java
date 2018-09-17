@@ -12,6 +12,11 @@ public class TestEnum1 {
 		break;
 		}
 
+	    for (Month m1:m.values() )
+	    {
+	    	 System.out.println(m1);
+	    }
+		
 	}
 
 }
@@ -20,3 +25,13 @@ public class TestEnum1 {
 Result:-
 
 January
+
+January
+February
+March
+April
+May
+June
+July
+August
+September
