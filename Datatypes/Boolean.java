@@ -1,7 +1,7 @@
 package Datatypes;
 
 public class Boolean {
-      /*  boolean data type represents only one bit of information either true or fals
+      /*  boolean data type represents only one bit of information either true or false
        *  Cannot convert to other data types
        * 
        * 
