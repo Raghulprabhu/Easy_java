@@ -21,6 +21,8 @@ public class TestEnum1 {
 
 }
 
+#Need to refer 1. Enum methods, Enum abstract, Enum Interface, EnumSet, EnumMap
+
 
 Result:-
 
