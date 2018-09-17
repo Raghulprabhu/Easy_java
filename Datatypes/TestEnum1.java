@@ -28,6 +28,8 @@ public class TestEnum1 {
 
 //Need to refer 1. Enum methods, Enum abstract, Enum Interface, EnumSet, EnumMap
 
+References:http://tutorials.jenkov.com/java/enums.html
+
 
 Result:-
 
