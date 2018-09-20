@@ -134,5 +134,69 @@ public class String1 {
          
          String s20 = "Guhan";
                 s20 =s20.replace('h','k');
-         System.out.println(s20);
+         System.out.println(s20);//Gukan
          
+         String s21="Guhan Ganesan";
+                s21=s21.replace("Ganesan", "Anbu");
+         System.out.println(s21);//Guhan Anbu
+        
+         
+         //Split
+         
+         String s22="He-is-my-dear-friend";
+         
+         for(String retval: s22.split("-"))
+         {
+        	 System.out.println(retval);
+         }
+         
+         /* He 
+          * is
+          * my
+          * dear
+          * friend
+          */
+         
+         for(String retval: s22.split("-",2))
+         {
+        	 System.out.println(retval);
+         }
+         /* He
+          * is-my-dear-friend
+          */
+         
+         // Sub sequence
+         
+         String s23 ="Java is my favorite language";
+         CharSequence s24 =s23.subSequence(3,10);// a is my
+         
+         System.out.println(s24);
+         
+         /* Note: CharSequence is a Datatype for storing 
+          *       a each character from String Datatype
+          */
+         
+         String s25 = s23.substring(10);
+         System.out.println(s25); //favorite language
+         
+         String s26 = s23.substring(2, 10);
+         System.out.println(s26);//va is my
+         /* Note: start at index 2
+          *       end before 10
+          */
+         
+         System.out.println(s23.toLowerCase());
+         //java is my favorite language
+         
+         
+         //To remove whitespace
+         
+         String s27 ="   Java is my favorite language    ";
+         
+         System.out.println(s27.trim());
+         //Java is my favorite language
+
+         /* Leading (start) and trailing(end)
+          * whitespaces are removed
+          * 
+          */
